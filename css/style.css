@@ -71,7 +71,6 @@
 
     header img{
         margin-right: 10px;
-        margin-top: 10px;
     }
 
     header .flex-cont{
@@ -89,6 +88,9 @@
 
     .head-start{
         /* line-height: 100px; */
+        display: flex;
+        gap: 15px;
+        align-items: center;
     }
   
 
