@@ -24,3 +24,13 @@ header{
 .card-body-bot{
     min-height: 200px;
 }
+
+.bot-card .card-body{
+    min-height: 150px;
+}
+
+/* Find PARTNER */
+
+.find-part{
+    border: 1px solid magenta;
+}

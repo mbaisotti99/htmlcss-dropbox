@@ -24,7 +24,7 @@
     }
 
     .small-cont{
-        width: 30%;
+        width: 60%;
         max-width: 1000px;
         margin: 0 auto;
     }
@@ -38,6 +38,7 @@
         text-decoration: none;
         font-size: 1.2rem;
         padding: .3em;
+        font-family: sans-serif;
     }
 
     .btn-blue{
@@ -45,6 +46,13 @@
         color: white;
     }
     
+    .btn-light{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        
+    }
+
     /* HEADER */
     header{
         display: flex;
@@ -96,14 +104,61 @@
 
     .card{
         width: 30%;
-        margin: 10px 20px;
+  
+    }
+
+    .card-head{
+        width: 100%;
+        margin: 0;
     }
 
     .bot-card{
         width: 100%;
+        margin: 15px 0;
     }
 
     .just{
         justify-content:space-between;
         width: 100%;
+    }
+
+
+    /* FIND PARTNER  */
+
+    .find-part{
+        margin: 25px 0;
+    }
+
+    .find-text{
+        margin: 25px 15px;
+    }
+
+    .find-text p{
+        margin: 15px 0;
+    }
+
+    .find-text .btn{
+        margin-top: 50px;
+    }
+
+    /* DROPBOX BUSINESS */
+
+    .card-busi{
+        width: 30%; 
+    }
+
+    .wrap{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .link{
+        margin: 25px 0;
+        padding: 25px 0;
+    }
+
+    .tito{
+        margin: 100px 0 25px 0;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: sans-serif;
     }
