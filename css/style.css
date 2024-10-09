@@ -201,6 +201,11 @@
         padding: 5px;
     }
 
+    .foot-list a{
+        text-decoration: none;
+        color: inherit;
+    }
+
     .foot-head{
         font-size: 1.3rem;
     }
