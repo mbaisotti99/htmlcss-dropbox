@@ -114,7 +114,12 @@
     }
 
     .hero p{
-        padding: 15px;
+        padding: 15px 0;
+    }
+
+    .hero i{
+        font-size: 30px;
+        margin: 15px 5px;
     }
 
     /* BUSINESS TOP */
@@ -125,6 +130,11 @@
 
     .busi-top .fatt{
         margin: 20px;
+    }
+
+    .busi-top .fatturaz{
+        position: relative;
+        top: -5px;
     }
 
     .card{
