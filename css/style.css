@@ -23,11 +23,26 @@
         margin: 0 auto;
     }
 
+    .small-cont{
+        width: 30%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .flex-cont{
+        display: flex;
+    }
+
     /* BUTTONS */
     .btn{
         text-decoration: none;
         font-size: 1.2rem;
-        padding: .5em;
+        padding: .3em;
+    }
+
+    .btn-blue{
+        background-color: blue;
+        color: white;
     }
     
     /* HEADER */
@@ -55,8 +70,9 @@
 
     .f-right{
         float: right;
-        width: 500px;
-        height: 250px;
+        width: 660px;
+        height: 350px;
+        
     }
 
     .hero{
@@ -66,4 +82,28 @@
 
     .hero p{
         padding: 15px;
+    }
+
+    /* BUSINESS TOP */
+
+    .busi-top{
+        margin-top: 150px;
+    }
+
+    .busi-top .fatt{
+        margin: 20px;
+    }
+
+    .card{
+        width: 30%;
+        margin: 10px 20px;
+    }
+
+    .bot-card{
+        width: 100%;
+    }
+
+    .just{
+        justify-content:space-between;
+        width: 100%;
     }

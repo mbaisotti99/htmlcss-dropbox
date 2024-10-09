@@ -1,3 +1,26 @@
 header{
     border: 2px solid blue;
 }
+
+.hero{
+    border: 2px solid red;
+}
+
+.busi-top{
+    border: 1px solid seagreen;
+}
+
+/* CARDS */
+.card-head{
+    min-height: 50px;
+    border: 2px solid green;
+}
+
+.card-body{
+    min-height: 500px;
+    border: 2px solid salmon;
+}
+
+.card-body-bot{
+    min-height: 200px;
+}
