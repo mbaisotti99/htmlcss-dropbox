@@ -139,12 +139,24 @@
 
     .card{
         width: 30%;
-  
+        height: 100%;
+        border: 1px solid grey;
+        
     }
+
+    
 
     .card-head{
         width: 100%;
         margin: 0;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid grey;
+        box-shadow: 0px 5px 5px;
+    }
+
+    .card-head span{
+        margin: 5px;
     }
 
     .bot-card{
@@ -157,6 +169,56 @@
         width: 100%;
     }
 
+    .card-body{
+        border: 1px solid grey;
+        padding: 10px 45px;
+        width: 100%;
+        min-height: 500px;
+
+    }
+
+    .card-body i{
+        position: absolute;
+        left:-20px;
+    }
+
+    .card-body ul{
+        list-style: none;
+        position: relative;
+    }
+
+    .card-body h3{
+        font-size: 25px;
+        margin: 15px 0;
+    }
+
+    .card-body li{
+        margin: 15px 0;
+    }
+
+    .price{
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: sans-serif ;
+    }
+
+    .per{
+        display: block;
+        color: grey;
+    }
+
+    .card-body .btn{
+        margin-top: 50px;
+    }
+
+    .buynow{
+        margin: 25px;
+    }
+
+    .div{
+        width: 100px;
+        margin: 50px 0;
+    }
 
     /* FIND PARTNER  */
 
