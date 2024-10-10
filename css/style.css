@@ -169,7 +169,6 @@
 
     .card{
         width: 30%;
-        height: 100%;
         border: 1px solid grey;
         
     }
@@ -200,10 +199,8 @@
     }
 
     .card-body{
-        border: 1px solid grey;
         padding: 10px 45px;
         width: 100%;
-        min-height: 750px;
 
     }
 
@@ -422,12 +419,16 @@
     .bonus-div{
         width: 30%;
         flex-wrap: wrap;
-        margin: 50px 0 100px 0;
+        margin-:0 100px;
+    }
+
+    .bonus-div.padd-20{
+        align-items: ;
     }
 
     .bonus-div img{
-        width: 50%;
-        height: 70%;
+        width: 100%;
+        height: 200px;
         padding: 25px;
     }
 
@@ -436,55 +437,68 @@
         width: 300px;    
     }
 
+    .back-flag{
+        width: 50%;
+    }
+
+    .back-flag img{
+        filter: invert();
+    }
+
+    .space{
+        width: 100%;
+        height: 100%;
+    }
+    
     .bonus-sect .bonus-div:nth-child(2){
         background-color: rgb(238, 224, 224);
-        height: 100%;
         min-height:300px;
         width: 40%;
     }
     .bonus-sect>.flex-cont{
         width: 100%;
         justify-content: space-between;
+        align-items: stretch;
     }
 
     /* Bandiere SX*/    
-    .bonus-sect .bonus-div:nth-child(1) img:nth-child(1){
+    .bonus-sect .bonus-div:nth-child(1) .back-flag:nth-child(1){
         background-color: green;
         border: 10px solid #93d375;
     }
 
-    .bonus-sect .bonus-div:nth-child(1) img:nth-child(2){
+    .bonus-sect .bonus-div:nth-child(1) .back-flag:nth-child(2){
         background-color: rgb(119, 0, 0);
         /* border: 10px solid #93d375; */
     }
 
-    .bonus-sect .bonus-div:nth-child(1) img:nth-child(3){
+    .bonus-sect .bonus-div:nth-child(1) .back-flag:nth-child(3){
         background-color: rgb(0, 162, 255);
         /* border: 10px solid #93d375; */
     }
 
-    .bonus-sect .bonus-div:nth-child(1) img:nth-child(4){
+    .bonus-sect .bonus-div:nth-child(1) .back-flag:nth-child(4){
         background-color: rgb(255, 0, 0);
         /* border: 10px solid #93d375; */
     }
 
     /* Bandiere DX */
-    .bonus-sect .bonus-div:nth-child(3) img:nth-child(1){
+    .bonus-sect .bonus-div:nth-child(3) .back-flag:nth-child(1){
         background-color: green;
         border: 10px solid #93d375;
     }
 
-    .bonus-sect .bonus-div:nth-child(3) img:nth-child(2){
+    .bonus-sect .bonus-div:nth-child(3) .back-flag:nth-child(2){
         background-color: rgb(119, 0, 0);
         /* border: 10px solid #93d375; */
     }
 
-    .bonus-sect .bonus-div:nth-child(3) img:nth-child(3){
+    .bonus-sect .bonus-div:nth-child(3) .back-flag:nth-child(3){
         background-color: rgb(0, 162, 255);
         /* border: 10px solid #93d375; */
     }
 
-    .bonus-sect .bonus-div:nth-child(3) img:nth-child(4){
+    .bonus-sect .bonus-div:nth-child(3) .back-flag:nth-child(4){
         background-color: rgb(255, 0, 0);
         /* border: 10px solid #93d375; */
     }
@@ -494,7 +508,6 @@
     /* BRING */
     .bring{
         background-color: rgb(180 208 231);
-        margin: 29px 0;
         padding: 100px;
     }
 
@@ -517,16 +530,36 @@
         left: 100px;
     }
 
+    
 
     /* FAQ */
     .faq .question{
         justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .question>p{
+        margin: 25px 0;
+        font-size: 25px;
+        
     }
 
     .hidden{
         display: none;
+        margin: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
     }
 
-    .question i:hover .hidden{
-        display: inline-block;
+    .show:hover + .hidden{
+    display: block;
+    }
+
+    .show:hover{
+        display: block;
+    }
+
+    .hidden:hover{
+        display: block;
     }
