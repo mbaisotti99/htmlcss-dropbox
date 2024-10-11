@@ -423,7 +423,7 @@
     }
 
     .bonus-div.padd-20{
-        align-items: ;
+        overflow: scroll;
     }
 
     .bonus-div img{
