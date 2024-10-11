@@ -21,3 +21,77 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width:425px) {
+
+    section .container{
+        width: 100%;
+    }   
+    
+    section .small-cont{
+        width: 100%;
+    }
+    
+    header .flex-cont{
+        flex-wrap: wrap;
+    }
+
+    .hero .flex-cont{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .hero .left, .hero .right{
+        width: 100%;
+    }
+
+    .hero img{
+        position: relative;
+        width: 100%;
+    }
+
+    .busi-top .tito{
+        text-align: center;
+    }
+
+    .busi-top .flex-cont.just{
+        flex-wrap: wrap;
+    }
+
+    .flex-cont.just .card, .card.bot-card{
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .find-part .flex-cont{
+        flex-direction: column;
+    }
+
+    .drpbx-busi .card-busi{
+        width: 100%;
+        text-align: center;
+    }
+    .drpbx-busi h2{
+        text-align: center;
+    }
+
+    .bonus-sect>.flex-cont{
+        flex-direction: column;
+    }
+
+    .bonus-sect .flex-cont .flex-cont{
+        width: 100%;
+    }
+
+    .bring{
+        padding: 30px;
+    }
+
+    .bring .btn{
+        left:50px;
+    }
+
+    .faq h2{
+        text-align: center;
+    }
+}
