@@ -1,0 +1,23 @@
+
+
+@media screen and (max-width:768px) {
+    section .container{
+        width: 100%;
+    }   
+    
+    section .small-cont{
+        width: 80%;
+    }
+
+    .bot-right .btn{
+        margin: 50px;
+    }
+
+    .card-busi{
+        width: 40%;
+    }
+
+    .drpbx-busi .flex-cont{
+        justify-content: center;
+    }
+}
