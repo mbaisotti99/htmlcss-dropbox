@@ -7,8 +7,8 @@
 
 [Desktop](#visualizzazione-desktop)
 
-~~[Mobile]()~~
-***W.I.P***
+[Mobile](#visualizzazione-mobile)
+
 
 Ho utilizzato le proprietà di flex per la prima volta per creare un layout completo della pagina home di Dropbox, con alcune aggiunte.
 
@@ -30,3 +30,7 @@ Ho utilizzato le proprietà di flex per la prima volta per creare un layout comp
 ### Visualizzazione Desktop
 
 ![](img/preview_Desktop.png)
+
+### Visualizzazione Mobile
+
+![](img/Mobile-preview.png)
